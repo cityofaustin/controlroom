@@ -20,24 +20,49 @@ class CarouselBlock(StreamBlock):
     class Meta:
         icon='cogs'
 
-@register_snippet
-class Blueprint(models.Model):
+class Blueprint(Page):
+    # def __init__(self, *args, **kwargs):
+    #     super(Blueprint, self).__init__(*args, **kwargs)
+    #
+    #     for stream_tuple in self.content.stream_data:
+    #         if stream_tuple[0] == 'title':
+    #             self.title = stream_tuple[1]
+    #
+    #     # we didn't find a title so fake it
+    #     self.title = 'Untitled Blueprint'
+
+    # title = models.CharField(
+    #     max_length=255,
+    #     editable=False
+    # )
+
+    # to reflect title of a current draft in the admin UI
+    # TODO: figure out how this works
+    # draft_title = models.CharField(
+    #     max_length=255,
+    #     editable=False
+    # )
+
     content = StreamField(
       [
         ('caro', CarouselBlock(label="caro")),
-        ('text', TextBlock(label="text"))
+        ('title', TextBlock(label="title"))
       ],
       blank=False
     )
 
-    panels = [
+    content_panels = [
       StreamFieldPanel('content')
     ]
 
-    def __str__(self):
-      # TODO: Figure out how to get this out of a streamfield
-        # return self.text
-        return "blarg"
+    promote_panels = Page.content_panels + Page.promote_panels
+
+    # def __str__(self):
+    #
+    #
+    #   # # TODO: Figure out how to get this out of a streamfield
+    #   #   # return self.text
+    #   #   return "blarg"
 
 class HomePage(Page):
     content = StreamField(
