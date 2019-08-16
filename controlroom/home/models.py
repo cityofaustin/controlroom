@@ -2,7 +2,7 @@ from django.db import models
 
 from wagtail.core.models import Page
 from wagtail.core.fields import StreamField
-from wagtail.core.blocks import StreamBlock, StructBlock, TextBlock, CharBlock
+from wagtail.core.blocks import StreamBlock, StructBlock, TextBlock, CharBlock, ChoiceBlock
 from wagtail.images.blocks import ImageChooserBlock
 from wagtail.embeds.blocks import EmbedBlock
 from wagtail.admin.edit_handlers import StreamFieldPanel
@@ -20,7 +20,26 @@ class CarouselBlock(StreamBlock):
     class Meta:
         icon='cogs'
 
+class PageTypeChoiceBlock(ChoiceBlock):
+    choices = [
+        ('service_page', 'Service Page'),
+        ('information_page', 'Information Page'),
+        ('guide_page', 'Guide Page'),
+    ]
+
+    class Meta:
+        icon = 'cogs'
+
 class Blueprint(Page):
+    content = StreamField(
+      [
+        ('title', TextBlock(label="title")),
+        ('page_type', PageTypeChoiceBlock(label="Page Type")),
+        ('caro', CarouselBlock(label="caro")),
+      ],
+      blank=False
+    )
+
     # def __init__(self, *args, **kwargs):
     #     super(Blueprint, self).__init__(*args, **kwargs)
     #
@@ -42,14 +61,6 @@ class Blueprint(Page):
     #     max_length=255,
     #     editable=False
     # )
-
-    content = StreamField(
-      [
-        ('caro', CarouselBlock(label="caro")),
-        ('title', TextBlock(label="title"))
-      ],
-      blank=False
-    )
 
     content_panels = [
       StreamFieldPanel('content')
