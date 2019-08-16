@@ -7,6 +7,7 @@ from wagtail.images.blocks import ImageChooserBlock
 from wagtail.embeds.blocks import EmbedBlock
 from wagtail.admin.edit_handlers import StreamFieldPanel
 
+from wagtail.snippets.models import register_snippet
 
 class CarouselBlock(StreamBlock):
     image = ImageChooserBlock()
@@ -18,6 +19,25 @@ class CarouselBlock(StreamBlock):
 
     class Meta:
         icon='cogs'
+
+@register_snippet
+class Blueprint(models.Model):
+    content = StreamField(
+      [
+        ('caro', CarouselBlock(label="caro")),
+        ('text', TextBlock(label="text"))
+      ],
+      blank=False
+    )
+
+    panels = [
+      StreamFieldPanel('content')
+    ]
+
+    def __str__(self):
+      # TODO: Figure out how to get this out of a streamfield
+        # return self.text
+        return "blarg"
 
 class HomePage(Page):
     content = StreamField(
