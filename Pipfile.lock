@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a432a66814340a522d894577582ce424eb0054383ecb60784b31466c8cee7e2f"
+            "sha256": "bcbb1a661a631ad64110949d770230f5faf4a9f39705d26ebc981bf0ac829ece"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -175,12 +175,8 @@
             "version": "==2.6.1"
         },
         "wagtail-react-streamfield": {
-            "hashes": [
-                "sha256:405d0ba69506e7dfcec4e8a758dbf7f5518b577364479ad6bbea23527e771868",
-                "sha256:5f973cca31ba604eeb70fef6343e0dcf0eae180c241092f33196dc7ac490d1d1"
-            ],
-            "index": "pypi",
-            "version": "==1.3.3"
+            "editable": true,
+            "path": "./wagtail-react-streamfield"
         },
         "webencodings": {
             "hashes": [
