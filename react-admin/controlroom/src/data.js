@@ -1,4 +1,38 @@
 export default {
+  themes: [
+    { id: 1, name: 'Housing and utilities' },
+    { id: 2, name: 'Health and safety' }
+  ],
+  topic_collections: [
+    { id: 1, theme_id: 1, name: 'Recycling, trash, and compost' },
+    { id: 2, theme_id: 2, name: 'Health records and certificates' },
+    { id: 3, theme_id: 2, name: 'Healthcare and prevention' }
+  ],
+  topics: [
+    { id: 1, topic_collection_id: 1, name: 'Household waste' },
+    { id: 2, topic_collection_id: 1, name: 'Compost and food waste' },
+    { id: 3, topic_collection_id: 1, name: 'Recycling and reuse' },
+    { id: 4, topic_collection_id: 2, name: 'Birth and death certificates' },
+    { id: 5, topic_collection_id: 3, name: 'Disease prevention' }
+  ],
+  // departments: {
+  //   {id: 1, name: "Office of Police Oversight"}
+  // },
+  service_pages: [
+    { id: 1, topic_id: 1, name: 'Get your bulk items collected' },
+    { id: 2, topic_id: 1, name: 'Get ready for curbside compost' },
+    {
+      id: 3,
+      topic_id: 1,
+      name: 'Drop off household hazardous waste and other recyclables'
+    },
+    {
+      id: 4,
+      topic_id: 2,
+      name: 'Set out your leaves, grass, and branches for pickup'
+    },
+    { id: 5, topic_id: 3, name: 'Pick up free paint and other household items' }
+  ],
   posts: [
     {
       id: 1,
