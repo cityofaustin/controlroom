@@ -1,0 +1,24 @@
+{
+  "name":
+    "react-admin-advanced-recipes-create-a-record-related-to-the-current-one",
+  "version": "1.0.0",
+  "description":
+    "https://marmelab.com/blog/2018/07/09/react-admin-tutorials-form-for-related-records.html",
+  "keywords": ["tutorial", "react-admin", "react"],
+  "main": "src/index.js",
+  "dependencies": {
+    "query-string": "6.1.0",
+    "ra-data-fakerest": "2.0.2",
+    "react": "16.3.2",
+    "react-admin": "2.1.0",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

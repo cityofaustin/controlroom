@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5145035e-aebc-4fa3-8c9f-3a358073d709" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wagtail-react-streamfield/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wagtail-react-streamfield/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wagtail-react-streamfield/react-streamfield/public/webpack-stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/wagtail-react-streamfield/react-streamfield/public/webpack-stats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wagtail-react-streamfield/wagtail_react_streamfield/static/js/wagtail-react-streamfield.js" beforeDir="false" afterPath="$PROJECT_DIR$/wagtail-react-streamfield/wagtail_react_streamfield/static/js/wagtail-react-streamfield.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,92 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/wagtail/admin/views/pages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="237" selection-start-line="237" selection-end-line="237" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/wagtail/admin/decorators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/wagtail/admin/urls/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/django/views/decorators/cache.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/django/core/handlers/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/django/core/handlers/exception.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controlroom/home/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controlroom/controlroom/static/js/controlroom.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/django/db/models/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="512" selection-start-line="512" selection-end-line="512" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/wagtail/core/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="653" selection-start-line="653" selection-end-line="653" />
             </state>
           </provider>
         </entry>
@@ -203,6 +124,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -229,9 +151,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controlroom" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controlroom/manage.py" />
@@ -266,7 +188,7 @@
     <frame x="0" y="23" width="1623" height="1027" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2496879" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2496879" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -274,7 +196,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -371,16 +293,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/wagtail/core/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="653" selection-start-line="653" selection-end-line="653" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/wagtail/admin/views/pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="3135">
           <caret line="237" selection-start-line="237" selection-end-line="237" />
         </state>
       </provider>
@@ -394,21 +309,21 @@
     </entry>
     <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/wagtail/admin/urls/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="1290">
           <caret line="101" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/django/views/decorators/cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="585">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="1515">
           <caret line="112" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
@@ -422,23 +337,30 @@
     </entry>
     <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="7185">
           <caret line="512" selection-start-line="512" selection-end-line="512" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controlroom/home/models.py">
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/controlroom--QvUDe1T/lib/python3.7/site-packages/wagtail/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="9300">
+          <caret line="653" selection-start-line="653" selection-end-line="653" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controlroom/controlroom/static/js/controlroom.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlroom/home/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
